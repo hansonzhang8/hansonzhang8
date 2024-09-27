@@ -38,9 +38,9 @@ test_data.to_csv('mev_2023_q1_test.csv', index=False)
 
 # Display the first few rows of the dataset
 # Read the training dataset
-mev_2023_q1_train = pd.read_csv('mev_2023_q1_train.csv')
+mev_2023_q1_train = pd.read_csv('../mev_2023_q1_train.csv')
 # Read the testing dataset
-mev_2023_q1_test = pd.read_csv('mev_2023_q1_test.csv')
+mev_2023_q1_test = pd.read_csv('../mev_2023_q1_test.csv')
 
 # Print the training dataset
 print(mev_2023_q1_train.head())
